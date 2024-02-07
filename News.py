@@ -1,7 +1,7 @@
 import requests
 import tabulate
 def everything():
-    response=requests.get(f'https://newsapi.org/v2/everything?q="tollywood"&apiKey=4a90cd6aa495440fbaff625f9fe50100&from=2024-01-10&to=2024-01-14&pagesize=50')
+    response=requests.get(f'https://newsapi.org/v2/everything?q="Tollywood"&apiKey=4a90cd6aa495440fbaff625f9fe50100&from=2024-01-10&to=2024-01-14&pagesize=50')
     if response.status_code==200:
         output=response.json()
         outer_list=[]
