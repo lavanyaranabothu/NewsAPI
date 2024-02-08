@@ -1,0 +1,21 @@
+
+everything:
+  url: https://newsapi.org/v2/everything
+  apikey: d66a2c5691fe4db1826283f00030b28e
+  headers:
+    -author
+    -title
+    -publishedAt
+search_dict:
+  -None
+  -title
+  -description
+  -content
+
+headlines:
+  url: https://newsapi.org/v2/top-headlines
+  apikey: d66a2c5691fe4db1826283f00030b28e
+  headers:
+      -author
+      -title
+      -publishedAt
