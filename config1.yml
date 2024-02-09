@@ -1,0 +1,88 @@
+basic:
+  my_url: https://newsapi.org
+  everything_url: /v2/everything
+  headlines_url: /v2/top-headlines
+  apikey: 20a0c464f00841a2b4019d426e96948a
+everything_search:
+  '1': title
+  '2': discription
+  '3': content
+  '4': None
+everything_sort:
+    '1': relevancy
+    '2': popularity
+    '3': publishedAt
+headings:
+  everything_headings:
+    - Author
+    - Title
+    - Published Dates
+  headlines_headings:
+    - Author
+    - Title
+    - Published Dates
+
+
+headlines_country:
+  '1': ae
+  '2': ar
+  '3': at
+  '4': au
+  '5': be
+  '6': bg
+  '7': br
+  '8': ca
+  '9': ch
+  '10': cn
+  '11': co
+  '12': cu
+  '13': cz
+  '14': de
+  '15': eg
+  '16': fr
+  '17': gb
+  '18': gr
+  '19': hk
+  '20': hu
+  '21': id
+  '22': ie
+  '23': il
+  '24': in
+  '25': it
+  '26': jp
+  '27': kr
+  '28': lt
+  '29': lv
+  '30': ma
+  '31': mx
+  '32': my
+  '33': ng
+  '34': nl
+  '35': no
+  '36': nz
+  '37': ph
+  '38': pl
+  '39': pt
+  '40': ro
+  '41': rs
+  '42': ru
+  '43': sa
+  '44': se
+  '45': sg
+  '46': si
+  '47': sk
+  '48': th
+  '49': tr
+  '50': tw
+  '51': ua
+  '52': us
+  '53': ve
+  '54': za
+headlines_category:
+  '1': business
+  '2': entertainment
+  '3': general
+  '4': health
+  '5': science
+  '6': sports
+  '7': technology

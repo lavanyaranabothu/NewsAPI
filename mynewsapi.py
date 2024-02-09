@@ -6,10 +6,10 @@ from yaml import safe_load
 def config_file(section,option,mode):
     if mode=='ini':
         file=ConfigParser()
-        file.read('config.ini')
+        file.read('config1.ini')
         return file.get(section,option)
     elif mode=='yml':
-        file = open('config.yml','r')
+        file = open('config1.yml','r')
         data = safe_load(file)
         file.close()
         return data[section][option]
