@@ -31,12 +31,10 @@ def config_file(section,option,mode):
             data = safe_load(file)
             file.close()
             try: return data[section][option]
-            except NoSectionError:
-                print(f'Please check mentioned {section}  not found in the file')
+            except KeyError:
+                print(f'Please check mentioned {section}/{option}  not found in the file')
                 sys.exit(1)
-            except NoOptionError:
-                print(f'Please check mentioned {option}  not found in the file')
-                sys.exit(1)
+
 def choice_decision(start,stop):
     while True:
         decision=input('Enter your choice: ')
