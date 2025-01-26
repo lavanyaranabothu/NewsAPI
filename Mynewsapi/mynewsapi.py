@@ -147,7 +147,7 @@ def top_headlines(mode,type):
                 if mode=='ini':headings=config_file('headings','headlines_headings',mode).split(',')
                 elif mode=='yml':headings=config_file('headings','headlines_headings',mode)
                 my_output(type=type,data=outer_list,headings=headings)
-            else:print('oops!.no results found with given query')
+            else: print('oops!.no results found with given query')
 
 
 def main():
